@@ -1,5 +1,5 @@
 ===========================================
-Classes that SoapClient for easier work with Tipalti.
+Classes that overwrite SoapClient for easier work with Tipalti.
 ===========================================
 
 Tipalti (www.tipalti.com) is global mass-payment service.
