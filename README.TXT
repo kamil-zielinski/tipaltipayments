@@ -1,6 +1,6 @@
-===========================================
+===============================================================
 Classes that overwrite SoapClient for easier work with Tipalti.
-===========================================
+===============================================================
 
 Tipalti (www.tipalti.com) is global mass-payment service.
 They have a SOAP API which is not the easiest to use.
@@ -10,7 +10,7 @@ I return result directly without going through functionNameResult object.
 I use Laravel's Config here, you can change that for anything.
 Unfortulatelly I could not extended standard SoapClient. Tipalti returned errorMessage 'PayerUnknown' then. I don't know why.
 
-===========================================
+===============================================================
 
 It's as easy as that:
 
